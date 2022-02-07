@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23a4c3acf1be43638b35c5275e6d54e, type: 3}
+  m_Name: Languages
+  m_EditorClassIdentifier: 
+  LocalizationList:
+  - Key: Global_BtnSettings_Lb
+    Translations:
+    - Settings
+    - "\u8BBE\u7F6E"
+  - Key: Global_BtnSettings_Tip
+    Translations:
+    - Settings
+    - "\u8BBE\u7F6E"
+  - Key: Global_SelectedObject_Lb
+    Translations:
+    - Selected GameObject
+    - "\u5DF2\u9009GameObject"
+  - Key: DIST_Header_Lb
+    Translations:
+    - Distribution
+    - "\u5206\u5E03"
+  - Key: DIST_X_Tip
+    Translations:
+    - Distribute in X direction.
+    - "X\u65B9\u5411\u7B49\u8DDD\u5206\u5E03."
+  - Key: DIST_Y_Tip
+    Translations:
+    - Distribute in Y direction.
+    - "Y\u65B9\u5411\u7B49\u8DDD\u5206\u5E03."
+  - Key: DIST_Z_Tip
+    Translations:
+    - Distribute in Z direction.
+    - "Z\u65B9\u5411\u7B49\u8DDD\u5206\u5E03."
+  - Key: DIST_Line_Tip
+    Translations:
+    - 'Line Distribution
+
+
+      Distribute along a line. The start point and the
+      end point are decided by their positions in the Hierarchy.'
+    - "\u6CBF\u76F4\u7EBF\u5206\u5E03\n\n\u6CBF\u76F4\u7EBF\u7B49\u8DDD\u5206\u5E03\u6240\u9009GameObject.
+      \u7EBF\u7684\u8D77\u70B9\u4E0E\u7EC8\u70B9\u7531\u6240\u9009GameObject\u5728Hierarchy\u9762\u677F\u4E2D\u7684\u4F4D\u7F6E\u51B3\u5B9A."
+  - Key: AL_Header_Lb
+    Translations:
+    - Alignment
+    - "\u5BF9\u9F50"
+  - Key: AL_XMin_Tip
+    Translations:
+    - Align in X direction to the object with the minimum X.
+    - "\u6CBFX\u65B9\u5411\u5BF9\u9F50\u5230\u6700\u5C0FX."
+  - Key: AL_XMax_Tip
+    Translations:
+    - Align in X direction to the object with the maximum X.
+    - "\u6CBFX\u65B9\u5411\u5BF9\u9F50\u5230\u6700\u5927X."
+  - Key: AL_XAvg_Tip
+    Translations:
+    - Align in X direction to the average X position of the objects.
+    - "\u6CBFX\u65B9\u5411\u5BF9\u9F50\u5230\u6700\u5E73\u5747X."
+  - Key: AL_YMin_Tip
+    Translations:
+    - Align in Y direction to the object with the minimum Y.
+    - "\u6CBFY\u65B9\u5411\u5BF9\u9F50\u5230\u6700\u5C0FY."
+  - Key: AL_YMax_Tip
+    Translations:
+    - Align in Y direction to the object with the maximum Y.
+    - "\u6CBFY\u65B9\u5411\u5BF9\u9F50\u5230\u6700\u5927Y."
+  - Key: AL_YAvg_Tip
+    Translations:
+    - Align in Y direction to the average Y position of the objects.
+    - "\u6CBFY\u65B9\u5411\u5BF9\u9F50\u5230\u5E73\u5747Y."
+  - Key: AL_ZMin_Tip
+    Translations:
+    - Align in Z direction to the object with the minimum Z.
+    - "\u6CBFZ\u65B9\u5411\u5BF9\u9F50\u5230\u6700\u5C0FZ."
+  - Key: AL_ZMax_Tip
+    Translations:
+    - Align in Z direction to the object with the maximum Z.
+    - "\u6CBFZ\u65B9\u5411\u5BF9\u9F50\u5230\u6700\u5927Z."
+  - Key: AL_ZAvg_Tip
+    Translations:
+    - Align in Z direction to the average Z position of the objects.
+    - "\u6CBFZ\u65B9\u5411\u5BF9\u9F50\u5230\u5E73\u5747Z."
+  - Key: PP_Header_Lb
+    Translations:
+    - Progressively Placement
+    - "\u7B49\u8DDD\u6392\u5217"
+  - Key: PP_Header_Tip
+    Translations:
+    - Progressively place the objects based on the delta distance between each object.
+      The first selected GameObject will be the base object (which will not move).
+    - "\u4F9D\u7167GameObject\u4E4B\u95F4\u7684\u56FA\u5B9A\u8DDD\u79BB\u7B49\u8DDD\u653E\u7F6E.
+      \u6240\u9009\u62E9\u7684\u7B2C\u4E00\u4E2AGameObject\u5C06\u4F5C\u4E3A\u57FA\u51C6,
+      \u5176\u4F4D\u7F6E\u5C06\u4FDD\u6301\u4E0D\u53D8."
+  - Key: PP_Delta_Lb
+    Translations:
+    - Delta Distance
+    - "\u95F4\u8DDD"
+  - Key: PP_ActionOrder_Lb
+    Translations:
+    - Action Order
+    - "\u6267\u884C\u987A\u5E8F"
+  - Key: PP_ActionOrder_Tip
+    Translations:
+    - Defines the order of the execution process. By default, the result objects
+      will be ordered by their positions in the Hierarchy.
+    - "\u653E\u7F6E\u64CD\u4F5C\u7684\u6267\u884C\u65B9\u5F0F. \u9ED8\u8BA4\u8BBE\u7F6E\u4E0B,
+      \u7531\u6240\u9009GameObject\u5728Hierarchy\u4E2D\u7684\u4F4D\u7F6E\u51B3\u5B9A."
+  - Key: PR_Header_Lb
+    Translations:
+    - Progressive Rotation
+    - "\u7B49\u89D2\u5EA6\u95F4\u9694\u65CB\u8F6C"
+  - Key: PR_Header_Tip
+    Translations:
+    - Progressively rotate the objects based on the delta angles between each object.
+      The first selected GameObject will be the base object (which will not be rotated).
+    - "\u4EE5\u56FA\u5B9A\u7684\u89D2\u5EA6\u95F4\u9694\u65CB\u8F6C\u6240\u9009\u591A\u4E2AGameObject.
+      \u6240\u9009\u62E9\u7684\u7B2C\u4E00\u4E2AGameObject\u5C06\u4F5C\u4E3A\u57FA\u51C6,
+      \u4E0D\u4F1A\u88AB\u65CB\u8F6C."
+  - Key: PR_Delta_Lb
+    Translations:
+    - Delta Euler Angle
+    - "\u95F4\u9694\u89D2\u5EA6"
+  - Key: RA_Header_Lb
+    Translations:
+    - Rotational Arrangement
+    - "\u65CB\u8F6C\u6392\u5217"
+  - Key: RA_Header_Tip
+    Translations:
+    - Place the objects around chosen center and axis. The first selected GameObject
+      will be the base object (which will not move).
+    - "\u4EE5\u6240\u9009\u7684\u4E2D\u5FC3\u4E0E\u8F74\u5411\u91CF\u65CB\u8F6C\u6392\u5217\u6240\u9009GameObject.
+      \u6240\u9009\u62E9\u7684\u7B2C\u4E00\u4E2AGameObject\u5C06\u4F5C\u4E3A\u57FA\u51C6,
+      \u5176\u4F4D\u7F6E\u5C06\u4FDD\u6301\u4E0D\u53D8."
+  - Key: RA_RotationCenter_Lb
+    Translations:
+    - Rotation Center
+    - "\u65CB\u8F6C\u4E2D\u5FC3"
+  - Key: RA_RotationCenter_Tip
+    Translations:
+    - 'The center point around which the GameObjects are arranged.
+
+
+      Drag a
+      GameObject to the circular icon to the right will set the center to its location.'
+    - "\u6240\u9009GameObject\u7684\u65CB\u8F6C\u4E2D\u5FC3.\n\n\u5C06\u4E00\u4E2AGameObject\u65BD\u653E\u5230\u53F3\u4FA7\u5706\u5F62\u56FE\u6807\u4E0A\u5373\u53EF\u5C06\u65CB\u8F6C\u4E2D\u5FC3\u8BBE\u4E3A\u8BE5GameObject\u7684\u4F4D\u7F6E."
+  - Key: RA_NormalAngle_Lb
+    Translations:
+    - Normal Angle
+    - "\u6CD5\u7EBF\u89D2\u5EA6"
+  - Key: RA_NormalAngle_Tip
+    Translations:
+    - Defines the rotation plane's normal angle.
+    - "\u5B9A\u4E49\u65CB\u8F6C\u5E73\u9762\u7684\u6CD5\u7EBF\u65B9\u5411."
+  - Key: RA_TotalAngle_Lb
+    Translations:
+    - Arc Angle
+    - "\u5F27\u7EBF\u89D2\u5EA6"
+  - Key: RA_TotalAngle_Tip
+    Translations:
+    - Defines the total angle of the rotation. When set to 360, the objects will
+      be arranged in a full circle. When it's less than 360, the operation will make
+      sure both the start and end of the arc have an object.
+    - "\u5B9A\u4E49\u65CB\u8F6C\u6392\u5217\u7684\u603B\u89D2\u5EA6. \u5F53\u89D2\u5EA6\u4E3A360\u65F6,
+      \u5404GameObject\u5747\u5300\u5206\u5E03\u4E8E\u6574\u4E2A\u5706\u5468\u4E0A.
+      \u5F53\u89D2\u5EA6\u5C0F\u4E8E360\u65F6, \u5C06\u4FDD\u8BC1\u5F27\u7EBF\u7684\u9996\u5C3E\u5404\u6709\u4E00\u4E2AGameObject."
+  - Key: RA_PreservePositionAlongAxis_Lb
+    Translations:
+    - Keep Axis Positions
+    - "\u4FDD\u6301\u8F74\u5411\u4F4D\u7F6E"
+  - Key: RA_PreservePositionAlongAxis_Tip
+    Translations:
+    - Rotate only in the direction perpendicular to the axis, while maintaining the
+      positions along the rotation axis.
+    - "\u53EA\u5728\u8F74\u5411\u7684\u5782\u76F4\u5E73\u9762\u65B9\u5411\u8FDB\u884C\u64CD\u4F5C,
+      \u4E0D\u6539\u53D8GameObject\u5728\u8F74\u5411\u7684\u4F4D\u7F6E"
+  - Key: RA_ApplyLocalRotation_Lb
+    Translations:
+    - Apply Local Rotation
+    - "\u5E94\u7528\u672C\u5730\u65CB\u8F6C"
+  - Key: RA_ApplyLocalRotation_Tip
+    Translations:
+    - Also applies rotation to the local rotation of each object.
+    - "\u5BF9\u6240\u9009GameObject\u5E94\u7528\u672C\u5730\u65CB\u8F6C."
+  - Key: RA_Invert_Lb
+    Translations:
+    - Invert
+    - "\u53CD\u5411"
+  - Key: Global_Btn_Execute
+    Translations:
+    - Apply
+    - "\u5E94\u7528"
+  - Key: RA_ToggleGuides
+    Translations:
+    - Toggle scene view guides.
+    - "\u5207\u6362\u573A\u666F\u89C6\u56FE\u8F85\u52A9\u7EBF."
+  - Key: Global_MenuItem_Support
+    Translations:
+    - Support & Feedback
+    - "\u652F\u6301\u4E0E\u53CD\u9988"
+  - Key: Global_MenuItem_MoreAssets
+    Translations:
+    - More Assets
+    - "\u66F4\u591A\u63D2\u4EF6"
+  - Key: SceneView_RA_CenterArc
+    Translations:
+    - "\u2190Rotation Center\nMode: Arc\n\u03B1 = "
+    - "\u2190\u65CB\u8F6C\u4E2D\u5FC3\n\u6A21\u5F0F: \u5F27\u5F62\n\u03B1 ="
+  - Key: SceneView_RA_CenterFull
+    Translations:
+    - "\u2190Rotation Center\nMode: Full Circle\n\u03B1 = "
+    - "\u2190\u65CB\u8F6C\u4E2D\u5FC3\n\u6A21\u5F0F: \u6574\u5706\n\u03B1 ="
+  - Key: SceneView_BaseObject
+    Translations:
+    - 'Base GameObject: '
+    - "\u57FA\u51C6GameObject: "
+  - Key: SceneView_RadiusWarning
+    Translations:
+    - Radius is 0.
+    - "\u65CB\u8F6C\u534A\u5F84\u4E3A0"
+  - Key: RA_AllowOver360_Lb
+    Translations:
+    - Allow Arc Over 360
+    - "\u5141\u8BB8\u5927\u4E8E360\u5EA6\u7684\u5F27"
+  - Key: PP_SelectTwoObj_Lb
+    Translations:
+    - Select 2 objects to measure the delta
+    - "\u9009\u62E9\u4E24\u4E2AGameObject\u4EE5\u6D4B\u91CF\u5176\u95F4\u8DDD"
+  - Key: PP_WriteToDelta_Lb
+    Translations:
+    - Set to Delta
+    - "\u8BBE\u4E3A\u95F4\u8DDD"
+  - Key: PP_WriteToDelta_Tip
+    Translations:
+    - "Set the\uF746 delta distance between two selected objects to the delta input
+      field, so that it can be applied to more objects."
+    - "\u5C06\u6240\u9009\u4E24\u4E2AGameObject\u7684\u95F4\u8DDD\u8BBE\u4E3A\u95F4\u8DDD\u503C\uFF0C\u4EE5\u4FBF\u5C06\u8BE5\u95F4\u8DDD\u5E94\u7528\u5230\u66F4\u591A\u5BF9\u8C61."
