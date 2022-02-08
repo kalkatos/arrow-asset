@@ -7,6 +7,8 @@ namespace Kalkatos.DottedArrow
 	{
 		public static CombatManager instance;
 
+		public Arrow Arrow { get => arrow; set => arrow = value; }
+
 		[SerializeField] private Arrow arrow;
 		[SerializeField] private AnimationCurve attackAnimCurve;
 
@@ -58,6 +60,16 @@ namespace Kalkatos.DottedArrow
 			arrow.Deactivate();
 			StartCoroutine(AttackAnimationCoroutine(attacker, king));
 			attacker.EndAttack();
+		}
+
+		public void CancelAttack ()
+		{
+			arrow.Deactivate();
+			if (attacker != null)
+			{
+				attacker.EndAttack();
+				attacker = null;
+			}
 		}
 	}
 }
