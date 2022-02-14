@@ -51,6 +51,7 @@ namespace Kalkatos.DottedArrow
 
 		public void BeginAttack (Card card)
 		{
+			CancelAttack();
 			arrow.SetupAndActivate(card.transform);
 			attacker = card;
 		}
